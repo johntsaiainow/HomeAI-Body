@@ -1,0 +1,9 @@
+{
+  "enabled": false,
+  "cli": "~/.lmstudio/bin/lms",
+  "port": 1234,
+  "provider": "neris-a",
+  "model": "",
+  "autoload_model": true,
+  "stop_owned_server_on_exit": true
+}

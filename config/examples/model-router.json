@@ -1,0 +1,17 @@
+{
+  "active": "local",
+  "profiles": {
+    "local": {
+      "provider": "neris-a",
+      "model": ""
+    },
+    "qwen": {
+      "provider": "",
+      "model": ""
+    },
+    "online": {
+      "provider": "",
+      "model": ""
+    }
+  }
+}

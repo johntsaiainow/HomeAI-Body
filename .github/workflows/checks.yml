@@ -1,0 +1,65 @@
+name: Source checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  source:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ['3.10', '3.14']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Python syntax
+        run: python -m compileall -q body voice asr tts-taigi generation scripts homeai_config.py system.py llm_service.py model_router.py model_lifecycle.py
+      - name: Shell syntax
+        run: git ls-files -z '*.sh' | xargs -0 -r -n1 bash -n
+      - name: Text conversion dependency
+        run: python -m pip install opencc-python-reimplemented==0.1.7
+      - name: Tests without hardware or models
+        run: |
+          python -B scripts/test_config.py
+          python -B scripts/test_demo_assets.py
+          python -B scripts/demo_assets.py
+          python -B scripts/assets_manifest.py
+          python -B body/test_lyrics.py
+          python -B body/test_lyrics_download.py
+          python -B body/test_lyrics_choices.py
+          python -B body/test_idle_sleep.py
+          python -B body/test_transition_flow.py
+          python -B voice/test_hand_rules.py
+          python -B scripts/test_llm_service.py
+          python -B scripts/test_model_lifecycle.py
+          python -B voice/test_llm_failure.py
+          python -B voice/test_music_commands.py
+          python -B voice/test_music_gestures.py
+          python -B voice/test_playlist_gestures.py
+          python -B body/test_llm_metrics.py
+          python -B body/test_music_gate.py
+          python -B body/test_music_replay.py
+  desktop:
+    runs-on: ubuntu-latest
+    env:
+      QT_QPA_PLATFORM: offscreen
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+      - name: Desktop test dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y mpv ffmpeg libegl1 libopengl0 pipewire-bin
+          test -r /usr/share/pipewire/client.conf
+          python -m pip install -r body/requirements.txt
+      - name: Demo and isolated desktop tests
+        run: |
+          python -B scripts/demo_assets.py
+          python -B scripts/assets_manifest.py
+          python -B body/test_layout.py
+          python -B body/test_beat_sync.py
+          python -B body/test_playlist_playback.py
+          python -B body/test_lyrics_mpv.py

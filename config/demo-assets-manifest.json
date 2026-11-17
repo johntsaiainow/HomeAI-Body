@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "purpose": "Original geometric robot demo; see demo/README.md",
+  "files": [
+    {
+      "path": "Reference.webp",
+      "bytes": 934,
+      "sha256": "74b3e19f30f3061a4c6ebe5eb9463c563004cfce5edfd91e4c128bff34d1de63"
+    },
+    {
+      "path": "body/assets/dancing_v2_dynamic_loop.mp4",
+      "bytes": 3412,
+      "sha256": "f40a14e1e5841e037ab626443521981133ff55a511f22eb5e498084a7af7d533"
+    },
+    {
+      "path": "body/assets/idle_v2_reference_v1_loop.mp4",
+      "bytes": 3412,
+      "sha256": "f40a14e1e5841e037ab626443521981133ff55a511f22eb5e498084a7af7d533"
+    },
+    {
+      "path": "body/assets/listening_v3_cancel.mp4",
+      "bytes": 3412,
+      "sha256": "f40a14e1e5841e037ab626443521981133ff55a511f22eb5e498084a7af7d533"
+    },
+    {
+      "path": "body/assets/listening_v3_hold.png",
+      "bytes": 952,
+      "sha256": "af7e9641a7a9b7f723dea337546cd4995d2b587974631126fe2272142c713e3d"
+    },
+    {
+      "path": "body/assets/listening_v3_transition_aligned.mp4",
+      "bytes": 3412,
+      "sha256": "f40a14e1e5841e037ab626443521981133ff55a511f22eb5e498084a7af7d533"
+    },
+    {
+      "path": "body/assets/sleep_v2.webp",
+      "bytes": 934,
+      "sha256": "74b3e19f30f3061a4c6ebe5eb9463c563004cfce5edfd91e4c128bff34d1de63"
+    },
+    {
+      "path": "body/assets/sleep_v2_reference_v1_loop.mp4",
+      "bytes": 3412,
+      "sha256": "f40a14e1e5841e037ab626443521981133ff55a511f22eb5e498084a7af7d533"
+    },
+    {
+      "path": "body/assets/speaking_v3_entry_aligned.mp4",
+      "bytes": 3412,
+      "sha256": "f40a14e1e5841e037ab626443521981133ff55a511f22eb5e498084a7af7d533"
+    },
+    {
+      "path": "body/assets/speaking_v3_hold.png",
+      "bytes": 952,
+      "sha256": "af7e9641a7a9b7f723dea337546cd4995d2b587974631126fe2272142c713e3d"
+    },
+    {
+      "path": "body/assets/speaking_v3_return_aligned.mp4",
+      "bytes": 3412,
+      "sha256": "f40a14e1e5841e037ab626443521981133ff55a511f22eb5e498084a7af7d533"
+    },
+    {
+      "path": "body/assets/thinking_v3_cancel.mp4",
+      "bytes": 3412,
+      "sha256": "f40a14e1e5841e037ab626443521981133ff55a511f22eb5e498084a7af7d533"
+    },
+    {
+      "path": "body/assets/thinking_v3_hold.png",
+      "bytes": 952,
+      "sha256": "af7e9641a7a9b7f723dea337546cd4995d2b587974631126fe2272142c713e3d"
+    },
+    {
+      "path": "body/assets/thinking_v3_transition_aligned.mp4",
+      "bytes": 3412,
+      "sha256": "f40a14e1e5841e037ab626443521981133ff55a511f22eb5e498084a7af7d533"
+    },
+    {
+      "path": "body/assets/vulcan_salute_v4_idle_connected.mp4",
+      "bytes": 3412,
+      "sha256": "f40a14e1e5841e037ab626443521981133ff55a511f22eb5e498084a7af7d533"
+    }
+  ]
+}

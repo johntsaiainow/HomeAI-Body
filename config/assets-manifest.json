@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "purpose": "Local assets inventory; binaries excluded from Git",
+  "files": [
+    {
+      "path": "Reference.webp",
+      "bytes": 1375204,
+      "sha256": "104517c80fac64719bf65c09f11e5ae061c036a41250bff90bf9288b26e8c4f7"
+    },
+    {
+      "path": "body/assets/dancing_v2_dynamic_loop.mp4",
+      "bytes": 34261539,
+      "sha256": "b3f6e395031fb822d76cae8e6cffdf6dd97f7e645fe8318640e29eb1864bba27"
+    },
+    {
+      "path": "body/assets/idle_v2_reference_v1_loop.mp4",
+      "bytes": 1866587,
+      "sha256": "c376e0cdf92c688efaee3851af1efea628b2d90ff462ed03baa32dda5b34f027"
+    },
+    {
+      "path": "body/assets/listening_v3_cancel.mp4",
+      "bytes": 7673441,
+      "sha256": "5824c77280035587770a3c70b911a51f3f9732258a20ff32de2926d35d9752f9"
+    },
+    {
+      "path": "body/assets/listening_v3_hold.png",
+      "bytes": 463614,
+      "sha256": "32a1c5d5857b6659e7839c8d8671bb651be8c7808e65417ead50d1ed36ec357d"
+    },
+    {
+      "path": "body/assets/listening_v3_transition_aligned.mp4",
+      "bytes": 7640744,
+      "sha256": "e2785e71882102a6017daa9ea331a445da998521852db352c1314ff1dee020d2"
+    },
+    {
+      "path": "body/assets/sleep_v2.webp",
+      "bytes": 1297886,
+      "sha256": "d54596bb86eb72a9baf7aa8f2d590acb119075fc4e81f69a0f4f79758547e6d2"
+    },
+    {
+      "path": "body/assets/sleep_v2_reference_v1_loop.mp4",
+      "bytes": 14760863,
+      "sha256": "e97a37d00912cb8be509320836a21934805515c497ac40ee7764c48b9391f1d9"
+    },
+    {
+      "path": "body/assets/speaking_v3_entry_aligned.mp4",
+      "bytes": 9674305,
+      "sha256": "351c43325660db87a2a307d6dcac17cd62bf9c0fb707a44584a09480195e5a49"
+    },
+    {
+      "path": "body/assets/speaking_v3_hold.png",
+      "bytes": 489543,
+      "sha256": "96c6cbace527b9bff0fb1de14d866bc158f300e0a7a119aa46cfde1475219930"
+    },
+    {
+      "path": "body/assets/speaking_v3_return_aligned.mp4",
+      "bytes": 8425524,
+      "sha256": "5a3ed1ef58e7ac3735d1927598b508c4e4e8149b7f97a51da0340e404173d951"
+    },
+    {
+      "path": "body/assets/thinking_v3_cancel.mp4",
+      "bytes": 8848040,
+      "sha256": "a9c6ddbf148c7e8739eca0f1d6686bfe1a124c0ebdfdbbbdce9d2c2437c8d9ac"
+    },
+    {
+      "path": "body/assets/thinking_v3_hold.png",
+      "bytes": 455884,
+      "sha256": "52402e56ea198f6bd5b5698924645d262d580d108e47ee3416c55461430904b8"
+    },
+    {
+      "path": "body/assets/thinking_v3_transition_aligned.mp4",
+      "bytes": 8834780,
+      "sha256": "d62cada3de3011e5887eeffb7feae32fec0b4e434ba42b9ad3a73556fdc9e4bf"
+    },
+    {
+      "path": "body/assets/vulcan_salute_v4_idle_connected.mp4",
+      "bytes": 18299045,
+      "sha256": "31d9a41779a54781c58714aaa0a9132423606946b0b81d955eceb092b01c1f96"
+    }
+  ]
+}

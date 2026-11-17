@@ -1,0 +1,9 @@
+{
+  "idle": {"file": "assets/idle_v2_reference_v1_loop.mp4", "loop": true},
+  "sleep": {"file": "assets/sleep_v2_reference_v1_loop.mp4", "fallback_image": "assets/sleep_v2.webp", "loop": true},
+  "listening": {"file": "assets/listening_v3_transition_aligned.mp4", "loop": false, "hold_image": "assets/listening_v3_hold.png"},
+  "thinking": {"file": "assets/thinking_v3_transition_aligned.mp4", "loop": false, "hold_image": "assets/thinking_v3_hold.png"},
+  "speaking": {"file": "assets/speaking_v3_entry_aligned.mp4", "loop": false, "hold_image": "assets/speaking_v3_hold.png"},
+  "dancing": {"file": "assets/dancing_v2_dynamic_loop.mp4", "loop": true},
+  "vulcan_salute": {"file": "assets/vulcan_salute_v4_idle_connected.mp4", "loop": false}
+}
