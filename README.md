@@ -1,10 +1,20 @@
 # HomeAI-Body
 
-Shared desktop embodiment infrastructure for household AI assistants. The current working character is **Neris-A**; multi-character configuration is planned, not yet implemented.
+An experimental foundation for embodied AI assistants, with future development focused on **laboratory assistants, production assistants, and bartenders**. The current working character is **Neris-A**; multi-character configuration is planned, not yet implemented.
 
 Linux desktop avatar and voice-assistant integration: PySide6 animation states, local music, timed lyrics, shared-camera preview, gesture controls and optional Mandarin/English/Taigi services.
 
-**Status:** working single-machine prototype, not yet a portable one-command full voice distribution. The safe installer currently bootstraps the **desktop component only**. Voice, camera, ASR/TTS and generation still need optional environments and external services; see [installation](docs/INSTALL.md).
+**Status:** basic single-machine prototype under active development. Complete laboratory, production, and bartending workflows are future goals; a portable one-command full voice distribution is not yet available. The safe installer currently bootstraps the **desktop component only**. Voice, camera, ASR/TTS and generation still need optional environments and external services; see [installation](docs/INSTALL.md).
+
+## Project goals and development direction
+
+The long-term goal is to develop assistants for three application areas:
+
+- **Laboratory assistant:** support laboratory work and interactions with laboratory systems.
+- **Production assistant:** support production workflows and interactions with production systems.
+- **Bartender:** support bartending interactions and workflows.
+
+This repository is the starting point for that work. Its current focus is the shared foundation: a desktop character, voice interaction, camera and gesture integration, and model selection. Application-specific workflows, tools, and hardware integrations will be developed in later stages. The project will continue to evolve through experimentation and implementation.
 
 ## Quick start
 
