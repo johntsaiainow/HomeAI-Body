@@ -16,6 +16,16 @@ The long-term goal is to develop assistants for three application areas:
 
 This repository is the starting point for that work. Its current focus is the shared foundation: a desktop character, voice interaction, camera and gesture integration, and model selection. Application-specific workflows, tools, and hardware integrations will be developed in later stages. The project will continue to evolve through experimentation and implementation.
 
+## Screenshots
+
+Neris-A in the current desktop prototype. Click a screenshot to view it at full size.
+
+| Idle | Dancing | Vulcan Salute |
+|---|---|---|
+| [![Neris-A idle with the conversation panel and model controls](docs/screenshots/idle.png)](docs/screenshots/idle.png) | [![Neris-A dancing with music playback and lyrics controls](docs/screenshots/dancing.png)](docs/screenshots/dancing.png) | [![Neris-A performing the Vulcan salute](docs/screenshots/vulcan-salute.png)](docs/screenshots/vulcan-salute.png) |
+
+The character media shown here is separate from the bundled robot demo; full runtime avatar media is not included in Git.
+
 ## Quick start
 
 ```bash

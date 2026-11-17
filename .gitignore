@@ -73,3 +73,10 @@
 !/demo/robot.webp
 !/demo/robot.mp4
 !/config/demo-assets-manifest.json
+
+# Screenshots explicitly supplied for the public README.
+!/docs/screenshots/
+/docs/screenshots/*
+!/docs/screenshots/idle.png
+!/docs/screenshots/dancing.png
+!/docs/screenshots/vulcan-salute.png
